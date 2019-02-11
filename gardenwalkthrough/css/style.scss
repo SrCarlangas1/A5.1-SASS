@@ -1,0 +1,74 @@
+/* Website template by freewebsitetemplates.com */
+
+body {
+  background: url(../images/bg-body.jpg) repeat;
+  color: #356618;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-width: 940px;
+  padding: 0;
+}
+
+a {
+  outline: none;
+}
+
+img {
+  border: 0;
+}
+
+p {
+  margin: 0;
+  text-align: justify;
+  a {
+    color: #356618;
+    &:hover {
+      color: #66a143;
+    }
+  }
+}
+
+#page {
+  background: #356618;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 900px;
+}
+
+@import 'header';
+
+/***** VARIABLE BODY *****/
+@import 'body';
+
+#footer div div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#body div#content div#sidebar div {
+  ul li {
+    color: #818181;
+    letter-spacing: 0.028em;
+    line-height: 24px;
+    a {
+      color: #818181;
+      text-decoration: none;
+      &:hover {
+        color: #4b4b4f;
+      }
+    }
+  }
+  &:first-child ul li {
+    letter-spacing: 0.024em;
+    line-height: 18px;
+    margin: 15px 0 0;
+  }
+  p {
+    color: #818181;
+    padding: 0;
+  }
+}
+
+@import 'footer';
